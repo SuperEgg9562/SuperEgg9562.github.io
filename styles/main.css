@@ -6,10 +6,9 @@ h1, h2, h3, li {
   color: lightblue;
 }
 a {
-  background: #666;
-  color: white;
+  color: grey;
 }
 p {
   background: #666;
-  color: white;
+  color: green;
 }
