@@ -3,8 +3,8 @@ body {
   font-family: sans-serif;
 }
 h1, h2, h3, li {
-  background: gold;
-  color: lightblue;
+  background:blue 
+  color: white;
 }
 a {
   color: white;
