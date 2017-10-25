@@ -2,11 +2,11 @@ body {
   background: teal;
   font-family: sans-serif;
 }
-h1, h2, h3, li {
-   
-  color: white;
+h1, h2, h3 {
+     color: white;
 }
-a {
+a, li {
+  background: lightblue;
   color: white;
 }
 p {
