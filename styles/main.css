@@ -1,18 +1,17 @@
 body {
   background:teal ;
   font-family: sans-serif;
-  font-weight: lighter;
 }
-h1, h2, h3, h4, h5, h6, h7, p, li {
-  color: lightgrey;
+h1, h2, h3, h4, h5, h6, li {
+  color: lightblue;
 }
 a {
-  background: #666;
+  background: ;
   color: white;
   padding: 10px opx;
 }
 p {
   background: #666;
   color: white;
-  padding: 10px opx;
+  padding: 10px;
 }
