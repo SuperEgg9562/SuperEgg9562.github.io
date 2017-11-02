@@ -12,11 +12,17 @@ body {
   background: teal;
   font-family: sans-serif;
 }
+<<<<<<< HEAD
 h1, h2, h3, li {
 
   color: white;
+=======
+h1, h2, h3 {
+     color: white;
+>>>>>>> 2627d19e5eec91cf6057bdb0fee163916625deca
 }
-a {
+a, li {
+  background: lightblue;
   color: white;
 }
 p {
