@@ -1,5 +1,5 @@
 * {
-   outline: 1px solid red !important;
+   outline: 1px solid lightgrey !important;
 }
 
 * {
@@ -7,23 +7,28 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+    background: white;
 }
 body{
-
-    width: 900px;
-    height: 500px;
+    background: lightgreen;
+    width: 1329px;
+    height: 1329px;
 
 }
-h1{
+h1, h2 ,h3{
   background: #33bebe;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+
 }
 
-a, li {
-  background: lightblue;
-  color: white;
+a, ul, li {
+  background: lightgreen;
+  color: #7C8B88;
 }
 p {
-  font-size: 5px;
+  background:lightgreen ;
   font-style: normal;
   font: status-bar;
   color: #7C8B88;
