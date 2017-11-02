@@ -1,5 +1,5 @@
 * {
-   outline: 1px solid lightgrey !important;
+   outline: 1px solid transparent !important;
 }
 
 * {
@@ -10,26 +10,37 @@
     background: white;
 }
 body{
-    background: lightgreen;
+
     width: 1329px;
     height: 1329px;
 
 }
-h1, h2 ,h3{
-  background: #33bebe;
+h1{
+
   font-weight: bold;
   font-family: sans-serif;
   color: white;
+}
+h2 ,h3{
 
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #7C8B88;
 }
 
-a, ul, li {
-  background: lightgreen;
-  color: #7C8B88;
+a, ul, li, h3 {
+
+  color: white;
 }
 p {
-  background:lightgreen ;
+
   font-style: normal;
   font: status-bar;
-  color: #7C8B88;
+  color: green;
+}
+a {
+  background: #30daca;
+}
+#grad, h1, h2, h3, ul, li, p, .image, body {
+  background : linear-gradient(to right, #30daca , #00c4ff);
 }
