@@ -8,24 +8,23 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
-body {
-  background: teal;
-  font-family: sans-serif;
-}
-<<<<<<< HEAD
-h1, h2, h3, li {
+body{
 
-  color: white;
-=======
-h1, h2, h3 {
-     color: white;
->>>>>>> 2627d19e5eec91cf6057bdb0fee163916625deca
+    width: 900px;
+    height: 500px;
+
 }
+h1{
+  background: #33bebe;
+}
+
 a, li {
   background: lightblue;
   color: white;
 }
 p {
-  background: lightblue;
-  color: green;
+  font-size: 5px;
+  font-style: normal;
+  font: status-bar;
+  color: #7C8B88;
 }
