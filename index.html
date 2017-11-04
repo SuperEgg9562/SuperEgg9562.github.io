@@ -1,50 +1,65 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <title>Chur! Welcome!</title>
-      <meta charset="UTF-8">
-        <link rel="stylesheet" href="styles/main.css">
-          </head>
-            <body>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Chur! Welcome</title>
+	<link rel="stylesheet" href="styles/custom.css">
+</head>
+<body>
 
-          <h1 class="title">Fishy Business</h1>
+	<div class="grid">
 
-    <div class="blog links">
-  <ul>
-<li><a href="blog/c1-reflection-blog.html">1st Reflection</a></li>
-  <li><a href="blog/c1-time-and-habits-blog.html">Time And Habits</a></li>
-    <li><a href="SuperEgg9562.github.io/blog/c2-emotional-intelligence.html">Emotional Intelligence</a></li>
-    </ul>
-      </div>
-    <h2 class="sub info">My name is Joseph Marks and I want to be a Web Developer!!!!!!!!!</h2>
-  <h3 class="date">22 October 2017</h3>
-<div class="awsumness">
-  <p>
-    At the moment I work in the dairy industry and I want something more than a job.
-        </p>
-      </div>
-    <section>
-  <div class="image"><img src="images/images.jpg" alt="This is a screenshot"></div>
-<div class="image"><img src="images/monster.png" alt="This is a screenshot"></div>
-  <div class="image"><img src="images/ktmlogo.jpg" alt="This is a screenshot"></div>
-    </section>
-    <div>
-    <button>Click me</button>
+		<div class="row">
+			<div class="col-4"><div class="image1"><img src="images/ktmlogo.jpg" alt="This is a screenshot"></div></div>
+			<div class="col-4"><h1 class="maintitle">Fishy Business</h1></div>
+      <div class="col-4 end"><div class="image2"><img src="images/monster.png" alt="This is a screenshot"></div></div>
+		</div>
+
+		<div class="row">
+			<div class="col-3"><div class="blog links">
+    <ul>
+  <li><a href="blog/c1-reflection-blog.html">1st Reflection</a></li>
+    <li><a href="blog/c1-time-and-habits-blog.html">Time And Habits</a></li>
+      <li><a href="blogl/c2-emotional-intelligence.html"> Emotional Intelligence</a></li>
+      </ul>
+    </div>
   </div>
-    <script>
+			<div class="col-9 end"><h2 class="sub info">My name is Joseph Marks and I want to be a Web Developer!!!!!!!!!</h2></div>
+		</div>
 
-    function createParagraph() {
-    var para = document.createElement('p');
-    para.textContent = 'Woohoo Javascript';
-    document.body.appendChild(para);
-  }
+		<div class="row">
+			<div class="col-4"><div class="image3"><img src="images/images.jpg" alt="This is a screenshot"></div></div>
+			<div class="col-4"><div class="aswumness">
+        <p>
+          At the moment I work in the dairy industry and I want something more than a job.
+            More awesomeness l8R.
+              </p>
+            </div></div>
+			<div class="col-4 end"><div class="image4"><img src="images/calfs.jpg" alt="This is a screenshot"></div></div>
+		</div>
 
-  var buttons = document.querySelectorAll('button');
+		<div class="row">
+			<div class="col-3"><div>
+      <button>Click me</button>
+    </div></div>
+			<div class="col-6"></div>
+			<div class="col-3 end"></div>
+		</div>
+	</div>
+  <script>
 
-  for (var i = 0; i < buttons.length ; i++) {
-    buttons[i].addEventListener('click', createParagraph);
-  }
+  function createParagraph() {
+  var para = document.createElement('p');
+  para.textContent = 'Woohoo Javascript';
+  document.body.appendChild(para);
+}
+
+var buttons = document.querySelectorAll('button');
+
+for (var i = 0; i < buttons.length ; i++) {
+  buttons[i].addEventListener('click', createParagraph);
+}
 
 </script>
-    </body>
-  </html>
+</body>
+</html>
