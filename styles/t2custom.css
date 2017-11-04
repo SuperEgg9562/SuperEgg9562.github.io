@@ -1,5 +1,5 @@
 * {
-    border: 1px solid transparent !important;
+    border: 1px red !important;
 }
 
 * {
@@ -70,7 +70,6 @@ h1{
   text-shadow: 1px 1px 1px red;
   font-family: 'Stalinist One', cursive;
   font-size: 40px;
-  ;
   color: white;
   padding-left: 50px;
   padding-right: 50px;
@@ -98,14 +97,12 @@ h2 ,h3{
   font-family: sans-serif;
   color: #7C8B88;
 }
-.image2{
-  margin-left: 0px;
-  padding-left: 80px;
+.blog-links{
+  padding-top: 50px;
 }
-.image4{
-  padding-left: 73px;
+.tech-list1{
+  padding-top: 7px;
 }
-.awsumness, p{
-  padding-left: 50px;
-  padding-right: 50px;
+.tech-list2{
+  padding-top: 50px;
 }
