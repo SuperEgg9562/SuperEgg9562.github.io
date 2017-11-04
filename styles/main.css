@@ -7,7 +7,7 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    background: white;
+
 }
 body{
 
@@ -16,6 +16,8 @@ body{
 
 }
 h1{
+  text-shadow: 1px 1px 1px green;
+  font-size: 40px;
   font-weight: bold;
   font-family: sans-serif;
   color: white;
@@ -26,20 +28,32 @@ h2 ,h3{
   font-family: sans-serif;
   color: #7C8B88;
 }
-
+li{
+  background: green;
+  padding: 10px;
+  margin-right: 1000px;
+  border: 3px solid blue;
+  font-style: normal;
+  font: status-bar;
+}
 a, ul, li, h3 {
 
   color: white;
 }
-p {
 
+p {
+  background: black;
+  padding: 10px;
+  margin-right: 500px;
+  border: 3px solid blue;
   font-style: normal;
   font: status-bar;
   color: green;
 }
-a {
-  background: #30daca;
+#grad, h1, h2, h3 .image, body {
+  background: linear-gradient(to right, #30daca , #00c4ff);
 }
-#grad, h1, h2, h3, ul, li, p, .image, body {
-  background : linear-gradient(to right, #30daca , #00c4ff);
+.awsumness{
+  margin-right: 500px;
+  padding: 10px;
 }
