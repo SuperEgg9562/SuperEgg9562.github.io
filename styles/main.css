@@ -16,8 +16,8 @@ body{
 
 }
 h1{
-  font-weight: bold;
-  font-family: sans-serif;
+  font-style: normal;
+  font: status-bar;
   color: white;
 }
 h2 ,h3{
