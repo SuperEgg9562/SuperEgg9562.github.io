@@ -67,11 +67,10 @@ body{
 
 }
 h1{
-  text-shadow: 1px 1px 1px green;
+  text-shadow: 1px 1px 1px red;
   font-family: 'Stalinist One', cursive;
   font-size: 40px;
-  font-weight: bold;
-  font-family: sans-serif;
+  ;
   color: white;
   padding-left: 50px;
   padding-right: 50px;
