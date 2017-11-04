@@ -37,3 +37,11 @@ a {
 #grad, h1, h2, h3, ul, li, p, .image, body {
   background : linear-gradient(to right, #30daca , #00c4ff);
 }
+.image4 {
+	background: transparent url() top left no-repeat;
+	position: absolute;
+	top: 40px;
+	right: 0;
+	width: 148px;
+	height: 110px;
+	}
