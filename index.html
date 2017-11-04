@@ -13,7 +13,7 @@
   <ul>
 <li><a href="blog/c1-reflection-blog.html">1st Reflection</a></li>
   <li><a href="blog/c1-time-and-habits-blog.html">Time And Habits</a></li>
-    <li><a href="blog/c2-emotional-intelligence.html">Emotional Intelligence</a></li>
+    <li><a href="SuperEgg9562.github.io/blog/c2-emotional-intelligence.html">Emotional Intelligence</a></li>
     </ul>
       </div>
     <h2 class="sub info">My name is Joseph Marks and I want to be a Web Developer!!!!!!!!!</h2>
@@ -28,5 +28,18 @@
 <div class="image"><img src="images/monster.png" alt="This is a screenshot"></div>
   <div class="image"><img src="images/ktmlogo.jpg" alt="This is a screenshot"></div>
     </section>
+    <script>
+    function createParagraph() {
+      var para = document.createElement('p');
+      para.textContent = 'You clicked the button!';
+      document.body.appendChild(para);
+      }
+
+      var buttons = document.querySelectorAll('button');
+
+      for (var i = 0; i < buttons.length ; i++) {
+        buttons[i].addEventListener('click', createParagraph);
+        }
+    </script>
     </body>
   </html>
