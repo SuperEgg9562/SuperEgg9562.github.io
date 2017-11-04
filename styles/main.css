@@ -38,7 +38,7 @@ a {
   background : linear-gradient(to right, #30daca , #00c4ff);
 }
 .image4 {
-	background: transparent url(ktmlogo.jpg) top left no-repeat;
+	background-image: url(ktmlogo.jpg) top left no-repeat;
 	position: absolute;
 	top: 40px;
 	right: 0;
