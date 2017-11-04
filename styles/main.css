@@ -24,6 +24,9 @@ h1{
   font-family: sans-serif;
   color: white;
 }
+h2, h3, p:nth-of-type(1) {
+margin-top: 60px;
+}
 h2 ,h3{
 
   font-weight: bold;
