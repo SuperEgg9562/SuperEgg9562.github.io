@@ -29,17 +29,19 @@
   <div class="image"><img src="images/ktmlogo.jpg" alt="This is a screenshot"></div>
     </section>
     <script>
+
     function createParagraph() {
-      var para = document.createElement('p');
-      para.textContent = 'You clicked the button!';
-      document.body.appendChild(para);
-      }
+    var para = document.createElement('p');
+    para.textContent = 'You clicked the button!';
+    document.body.appendChild(para);
+  }
 
-      var buttons = document.querySelectorAll('button');
+  var buttons = document.querySelectorAll('button');
 
-      for (var i = 0; i < buttons.length ; i++) {
-        buttons[i].addEventListener('click', createParagraph);
-        }
-    </script>
+  for (var i = 0; i < buttons.length ; i++) {
+    buttons[i].addEventListener('click', createParagraph);
+  }
+
+</script>
     </body>
   </html>
