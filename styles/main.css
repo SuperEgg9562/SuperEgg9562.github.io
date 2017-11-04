@@ -16,8 +16,8 @@ body{
 
 }
 h1{
-  font-style: normal;
-  font: status-bar;
+  font-weight: bold;
+  font-family: sans-serif;
   color: white;
 }
 h2 ,h3{
@@ -40,6 +40,6 @@ p {
 a {
   background: #30daca;
 }
-#grad h1, h2, h3, ul, li, p, .image, body {
+#grad, h1, h2, h3, ul, li, p, .image, body {
   background : linear-gradient(to right, #30daca , #00c4ff);
 }
