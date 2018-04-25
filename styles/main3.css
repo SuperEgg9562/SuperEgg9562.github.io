@@ -1,0 +1,98 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  background-image: url('../images/circuitrybig.jpg');
+  background-position: right;
+  background-size:25% 50%;
+  background-repeat: no-repeat;
+
+
+}
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1,h2{
+  color: blue;
+  font-weight: bolder;
+  font-family: 'Stalinist One', cursive;
+}
+h3{
+  color: white;
+  font-family: 'Stalinist One', cursive;
+}
+h4{
+  color: blue;
+  font-family: 'Stalinist One', cursive;
+}
+.section {
+  padding: 8rem 0 0rem;
+  text-align: left;
+  color: white;
+
+
+
+}
+.boss-heading{
+  font-family: 'Stalinist One', cursive;
+  text-align: left;
+  font-size:  4.0rem;
+  color: Red;
+}
+
+/* boss
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.boss {
+  position: left;
+  font-family: 'Stalinist One', cursive;
+}
+/* circuitrybig
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+  .section {
+    padding: 12rem 0 11rem;
+  }
+  .boss {
+    padding-bottom: 12rem;
+    text-align: left;
+    height: 165px;
+  }
+  .boss-image {
+    position: absolute;
+    max-height: 200px;
+    z-index: 3;
+  }
+  .boss-heading {
+    font-size: 2.4rem;
+  }
+}
+/* Bigger than 750 */
+@media (min-width: 750px) {
+  .favlogo {
+    height: 190px;
+  }
+  .boss-heading {
+    font-size: 2.0rem;
+  }
+  .section {
+    padding: 8rem 8rem, 8rem;
+  }
+  .boss-image {
+    padding: 0.10rem 0.10rem 0.10rem;
+  }
+}
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  .section {
+    padding: 10rem 0rem 0rem;
+  }
+  .boss-heading {
+    font-size: 4.0rem;
+  }
+}
