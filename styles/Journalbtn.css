@@ -8,45 +8,45 @@
 }
 
 /* Green */
-.success {
+.mylove {
   border-color: #4CAF50;
   color: green;
 }
 
-.success:hover {
+.mylove:hover {
   background-color: #4CAF50;
   color: white;
 }
 
 /* Blue */
-.info {
+.dnl {
   border-color: #2196F3;
   color: dodgerblue
 }
 
-.info:hover {
+.dnl:hover {
   background: #2196F3;
   color: white;
 }
 
 /* Orange */
-.warning {
+.FFC {
   border-color: #ff9800;
   color: orange;
 }
 
-.warning:hover {
+.FFC:hover {
   background: #ff9800;
   color: white;
 }
 
 /* Red */
-.danger {
+.chaoticmind {
   border-color: #f44336;
   color: red
 }
 
-.danger:hover {
+.chaoticmind:hover {
   background: #f44336;
   color: white;
 }
