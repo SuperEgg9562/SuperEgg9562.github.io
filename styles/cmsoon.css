@@ -2,10 +2,6 @@ body, html {
   height: 100%;
   background-color: #4CAF50;
 }
-.bgimg {
- 
-  font-size: 25px;
-}
 .topleft {
   position: absolute;
   top: 0;
