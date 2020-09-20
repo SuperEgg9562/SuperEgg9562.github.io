@@ -26,7 +26,13 @@ body, html {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
+.timer {
+      text-align: center;
+      font-size: 60px;
+      margin-top: 0px;
+      color: white;
+      background-color: rgb(100, 38, 214);
+}
 /* Style the <hr> element */
 hr {
   margin: auto;
