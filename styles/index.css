@@ -1,11 +1,9 @@
 .header {
-  padding: 80px; /* some padding */
-  text-align: center; /* center the text */
+  padding: 80px; 
+  text-align: center; 
   background: #1abc9c; /* green background */
-  color: white; /* white text color */
+  color: white; 
 }
-
-/* Increase the font size of the <h1> element */
 .header h1 {
   font-size: 40px;
 }
@@ -19,9 +17,9 @@
 .navbar a {
   float: left; /* Make sure that the links stay side-by-side */
   display: block; /* Change the display to block, for responsive reasons (see below) */
-  color: white; /* White text color */
-  text-align: center; /* Center the text */
-  padding: 14px 20px; /* Add some padding */
+  color: white; 
+  text-align: center; 
+  padding: 14px 20px; 
   text-decoration: none; /* Remove underline */
 }
 
@@ -51,14 +49,17 @@
 .side {
   flex: 30%; /* Set the width of the sidebar */
   background-color: #f1f1f1; /* Grey background color */
-  padding: 20px; /* Some padding */
+  padding: 20px; 
 }
 
 /* Main column */
 .main {
   flex: 70%; /* Set the width of the main content */
-  background-color: white; /* White background color */
-  padding: 20px; /* Some padding */
+  background-color: white; 
+  padding: 20px;
+}
+.main h3 {
+  text-align: center;
 }
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
