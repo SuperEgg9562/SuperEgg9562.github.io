@@ -1,6 +1,9 @@
 body, html {
   height: 100%;
-  background-color: green;
+  
+}
+.bgimg {
+  background-color: green; 
 }
 .topleft {
   position: absolute;
