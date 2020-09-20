@@ -1,9 +1,5 @@
 body, html {
   height: 100%;
-  
-}
-.bgimg {
-  background-color: green; 
 }
 .topleft {
   position: absolute;
@@ -32,9 +28,4 @@ body, html {
       margin-top: 0px;
       color: white;
       background-color: rgb(100, 38, 214);
-}
-/* Style the <hr> element */
-hr {
-  margin: auto;
-  width: 40%;
 }
