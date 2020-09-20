@@ -1,7 +1,7 @@
-'use strict';
+
 var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
 
-var x = setInterval(function() {
+var myfuncCT = setInterval(function() {
 
   var now = new Date().getTime();
 
@@ -12,11 +12,18 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.getElementById("days").innerHTML = days + "d "
+  document.getElementById("hours").innerHTML = hours + "h " 
+  document.getElementById("mins").innerHTML = minutes + "m " 
+  document.getElementById("secs").innerHTML = seconds + "s"
 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+  if (timeleft < 0) {
+    clearInterval(myfuncCT);
+    document.getElementById("days").innerHTML = ""
+    document.getElementById("hours").innerHTML = "" 
+    document.getElementById("mins").innerHTML = ""
+    document.getElementById("secs").innerHTML = ""
+    document.getElementById("end").innerHTML = "Expired ";  
+    
   }
 }, 1000);
